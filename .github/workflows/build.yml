@@ -1,0 +1,45 @@
+name: Java CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+
+    stategy:
+      matrix:
+        java-version: [8, 11, 17]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup JDK ${{ matrix.java-version }}
+        uses: actions/setup-java@v3
+        with:
+          distribution: temurin
+          java-version: ${{ matrix.java-version }}
+
+      - name: Validate Gradle Wrapper
+        uses: gradle/wrapper-validation-action@v1
+
+      - name: Setup Gradle
+        uses: gradle/gradle-build-action@v2
+
+      - name: Build
+        run: ./gradlew build
+
+      - name: Upload TmpLink.jar
+        uses: actions/upload-artifact@v3
+        with:
+          name: TmpLink
+          path: universal/build/libs/TmpLink-*.jar
+
+      - name: Upload AzLink-Legacy.jar
+        uses: actions/upload-artifact@v3
+        with:
+          name: AzLink-Legacy
+          path: universal-legacy/build/libs/AzLink-Legacy-*.jar

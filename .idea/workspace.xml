@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="47c11700-85db-4bb1-ad42-c38b966a5502" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/fr/temporal/tmplink/bukkit/TmpLinkBukkitPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/fr/temporal/tmplink/bukkit/injector/HttpDecoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/fr/temporal/tmplink/bukkit/integrations/AuthMeIntegration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/fr/temporal/tmplink/bukkit/integrations/MoneyPlaceholderExpansion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/resources/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bukkit/src/main/resources/plugin.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/TmpLinkPlatform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/TmpLinkPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/command/CommandSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/command/TmpLinkCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/config/PluginConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/data/PlatformData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/data/PlayerData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/data/ServerData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/data/SystemData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/data/UserInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/data/WebsiteResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/data/WorldData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/http/client/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/http/server/HttpChannelInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/http/server/HttpHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/http/server/HttpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/http/server/NettyHttpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/logger/JavaLoggerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/logger/LoggerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/logger/Slf4jLoggerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/platform/PlatformInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/platform/PlatformType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/scheduler/CancellableTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/scheduler/JavaSchedulerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/scheduler/SchedulerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/scheduler/ThreadFactoryBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/tasks/FetcherTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/tasks/TpsTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/users/EditMoneyResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/users/UserManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/utils/Hash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/utils/SystemUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/utils/UpdateChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/test/java/fr/temporal/tmplink/common/HashTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/test/java/fr/temporal/tmplink/common/ThreadFactoryBuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/test/java/fr/temporal/tmplink/common/UpdateCheckerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NgH7t7AsEKEDyWCUZiWjyHbNsx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "corretto-1.8",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager" selected="Gradle.ThreadFactoryBuilderTest">
+    <configuration name="HashTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":tmplink-common:test" />
+            <option value="--tests" />
+            <option value="&quot;fr.temporal.tmplink.common.HashTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ThreadFactoryBuilderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":tmplink-common:test" />
+            <option value="--tests" />
+            <option value="&quot;fr.temporal.tmplink.common.ThreadFactoryBuilderTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UpdateCheckerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":tmplink-common:test" />
+            <option value="--tests" />
+            <option value="&quot;fr.temporal.tmplink.common.UpdateCheckerTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.ThreadFactoryBuilderTest" />
+        <item itemvalue="Gradle.HashTest" />
+        <item itemvalue="Gradle.UpdateCheckerTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47c11700-85db-4bb1-ad42-c38b966a5502" name="Changes" comment="" />
+      <created>1680078641274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680078641274</updated>
+    </task>
+    <servers />
+  </component>
+</project>

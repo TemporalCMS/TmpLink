@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/bukkit" />
+            <option value="$PROJECT_DIR$/bungee" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/nukkit" />
+            <option value="$PROJECT_DIR$/sponge" />
+            <option value="$PROJECT_DIR$/sponge-legacy" />
+            <option value="$PROJECT_DIR$/universal" />
+            <option value="$PROJECT_DIR$/universal-legacy" />
+            <option value="$PROJECT_DIR$/velocity" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

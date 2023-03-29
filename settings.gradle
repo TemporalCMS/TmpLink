@@ -1,0 +1,7 @@
+rootProject.name = 'tmpLink'
+
+['common', 'bukkit', 'bungee', 'sponge', 'sponge-legacy', 'velocity', 'nukkit', 'universal', 'universal-legacy'].each {
+    include ":tmplink-${it}"
+    project(":tmplink-${it}").projectDir = file(it)
+}
+

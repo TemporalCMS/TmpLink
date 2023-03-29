@@ -1,0 +1,19 @@
+name: TmpLink
+version: ${pluginVersion}
+author: Temporal Team
+description: The plugin to link your Temporal website with your server.
+website: https://Temporal.fr
+main: fr.temporal.tmplink.bukkit.TmpLinkBukkitPlugin
+api-version: 1.13
+softdepend: [PlaceholderAPI]
+loadbefore: [AuthMe]
+commands:
+  tmplink:
+    description: Manage the TmpLink plugin.
+    usage: /<command> [status|setup|fetch|port]
+    aliases: [temporallink]
+
+permissions:
+  tmplink.admin:
+    description: Allows you to use the /tmplink command.
+    default: op
