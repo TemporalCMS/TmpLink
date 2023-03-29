@@ -1,0 +1,21 @@
+plugins {
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
+}
+
+dependencies {
+    implementation project(':tmplink-common')
+    implementation project(':tmplink-bukkit')
+    implementation project(':tmplink-bungee')
+    implementation project(':tmplink-sponge')
+    implementation project(':tmplink-sponge-legacy')
+    implementation project(':tmplink-velocity')
+    implementation project(':tmplink-nukkit')
+}
+
+shadowJar {
+    archiveFileName = "TmpLink-${project.version}.jar"
+}
+
+artifacts {
+    archives shadowJar
+}

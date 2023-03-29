@@ -1,0 +1,28 @@
+plugins {
+    id 'com.github.johnrengelman.shadow' version '7.1.2'
+}
+
+dependencies {
+    implementation project(':tmplink-common')
+    implementation project(':tmplink-bukkit')
+    implementation project(':tmplink-bungee')
+    implementation project(':tmplink-sponge')
+    implementation project(':tmplink-sponge-legacy')
+    implementation project(':tmplink-velocity')
+    implementation project(':tmplink-nukkit')
+
+    implementation 'com.google.code.gson:gson:2.8.9'
+    implementation 'io.netty:netty-handler:4.1.86.Final'
+    implementation 'io.netty:netty-codec-http:4.1.72.Final'
+}
+
+shadowJar {
+    archiveFileName = "TmpLink-Legacy-${project.version}.jar"
+
+    relocate 'com.google.gson', 'fr.temporal.tmplink.libs.gson'
+    relocate 'io.netty', 'fr.temporal.tmplink.libs.netty'
+}
+
+artifacts {
+    archives shadowJar
+}
