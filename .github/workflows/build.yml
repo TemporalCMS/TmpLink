@@ -7,6 +7,7 @@ on:
 jobs:
   build:
     name: Build
+
     runs-on: ubuntu-latest
 
     strategy:
@@ -38,8 +39,8 @@ jobs:
           name: TmpLink
           path: universal/build/libs/TmpLink-*.jar
 
-      - name: Upload AzLink-Legacy.jar
+      - name: Upload TmpLink-Legacy.jar
         uses: actions/upload-artifact@v3
         with:
-          name: AzLink-Legacy
-          path: universal-legacy/build/libs/AzLink-Legacy-*.jar
+          name: TmpLink-Legacy
+          path: universal-legacy/build/libs/TmpLink-Legacy-*.jar
