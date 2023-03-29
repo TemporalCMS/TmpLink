@@ -4,61 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47c11700-85db-4bb1-ad42-c38b966a5502" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/fr/temporal/tmplink/bukkit/TmpLinkBukkitPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/fr/temporal/tmplink/bukkit/injector/HttpDecoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/fr/temporal/tmplink/bukkit/integrations/AuthMeIntegration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bukkit/src/main/java/fr/temporal/tmplink/bukkit/integrations/MoneyPlaceholderExpansion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bukkit/src/main/resources/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bukkit/src/main/resources/plugin.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/TmpLinkPlatform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/TmpLinkPlugin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/command/CommandSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/command/TmpLinkCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/config/PluginConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/data/PlatformData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/data/PlayerData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/data/ServerData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/data/SystemData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/data/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/data/WebsiteResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/data/WorldData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/http/client/HttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/http/server/HttpChannelInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/http/server/HttpHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/http/server/HttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/http/server/NettyHttpServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/logger/JavaLoggerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/logger/LoggerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/logger/Slf4jLoggerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/platform/PlatformInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/platform/PlatformType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/scheduler/CancellableTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/scheduler/JavaSchedulerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/scheduler/SchedulerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/scheduler/ThreadFactoryBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/tasks/FetcherTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/tasks/TpsTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/users/EditMoneyResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/users/UserManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/utils/Hash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/utils/SystemUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/fr/temporal/tmplink/common/utils/UpdateChecker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/test/java/fr/temporal/tmplink/common/HashTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/test/java/fr/temporal/tmplink/common/ThreadFactoryBuilderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/test/java/fr/temporal/tmplink/common/UpdateCheckerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="47c11700-85db-4bb1-ad42-c38b966a5502" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
